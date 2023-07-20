@@ -1,0 +1,30 @@
+body {
+    background-image: url("https://picsum.photos/500/300");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: darkslategrey;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: lightgray;
+}
+
+.space {
+    flex-grow: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0px, 20px;
+    border-top: 2px lightgray solid;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0px;
+}
